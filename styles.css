@@ -15,11 +15,13 @@ li{
     list-style: none;
     padding:5px;
     cursor:pointer;
+    margin-left:5px;
+    font-size:15px;
 }
 li:nth-child(2){
     background:url(images/bar.svg) no-repeat;
-    margin-left:15px;
-    background-size: 35px;
+    margin-left:30px;
+    background-size: 30px;
 }
 .header button{
     background:blue;
@@ -27,6 +29,7 @@ li:nth-child(2){
     padding:10px 12px;
     border:1px solid;
     margin-top:-5px;
+    margin-right:10px;
     border-radius:3px;
     cursor:pointer;
 }
